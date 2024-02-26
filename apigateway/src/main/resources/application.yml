@@ -19,3 +19,7 @@ spring:
           uri: http://localhost:8082/
           predicates:
             - Path=/second/**
+        - id: user-profile
+          uri: https://87c6-125-18-168-34.ngrok-free.app
+          predicates:
+            - Path=/rails/**
