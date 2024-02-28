@@ -1,0 +1,54 @@
+.menu-container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.9);;
+   
+  }
+  .full_container{
+    background-image: url('https://live.staticflickr.com/1049/1291187199_a9e9fe2e52_b.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+  }
+  .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    max-width: 300px; 
+  }
+  
+  .menu-item h3 {
+    margin-top: 0;
+  }
+  
+  .menu-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-item ul li {
+    margin-bottom: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .menu-item {
+      flex-basis: calc(50% - 20px); 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .menu-item {
+      flex-basis: calc(33.33% - 20px); 
+    }
+  }
+  

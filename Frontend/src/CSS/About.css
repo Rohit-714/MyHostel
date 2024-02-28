@@ -1,0 +1,43 @@
+
+.aboutContainer {
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1024x768/291505090.jpg?k=ef6010d7cf7d58004318c544438e9e18e07d3f40af8e96e8f737464d5afb67d8&o=&hp=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9; 
+  }
+  
+  .aboutContent {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .aboutContent h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .aboutContent h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .aboutContent p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .aboutContent {
+      padding: 10px;
+    }
+  }
+  

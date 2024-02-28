@@ -1,0 +1,48 @@
+
+.navbar-brand {
+    margin-right: 20px; 
+    color: #333; 
+  }
+    
+  .navbar-nav .nav-link {
+    color: #333; 
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold; 
+  }
+  
+  .image-container {
+    margin-top: 20px; 
+  }
+  
+  .card-title {
+    color: #333; 
+  }
+  
+  .card-text {
+    color: #555; 
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      margin-right: 0;
+    }
+  }
+  
+.image-container {
+    margin-top: 20px; 
+  }
+  
+  .image-container:hover img {
+    transform: translateY(-20px); 
+    transition: transform 0.5s ease; 
+  }
+
+  .mycontainer:hover img {
+    transform: translateY(-20px); 
+    transition: transform 0.5s ease; 
+  }
+  
+
+  /*   */

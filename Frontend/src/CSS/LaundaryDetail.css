@@ -1,0 +1,28 @@
+.laundry-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .full_containerr {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/53bef668e4b051fad94f0d73/1447326006897-UX8D05R26L15LXM5ALSJ/laundrette+englands+lane+hostel+hampstead+mums'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px; 
+  }
+  .details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 768px) {
+    .details {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  

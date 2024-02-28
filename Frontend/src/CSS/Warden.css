@@ -1,0 +1,48 @@
+.warden-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .warden-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .full_container{
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1024x768/291505090.jpg?k=ef6010d7cf7d58004318c544438e9e18e07d3f40af8e96e8f737464d5afb67d8&o=&hp=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9; 
+  }
+  .warden-img {
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+  
+  .warden-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .warden-card {
+      flex-direction: row;
+    }
+    
+    .warden-img {
+      margin-right: 20px;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+.rating-container {
+    display: inline-block;
+  }
+.myRating{
+    align-items: center;
+    justify-content: center;
+}
+
+  .react-rating-stars-component{
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rating-container .react-rating-stars-component .star {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .rating-container .react-rating-stars-component .star::before {
+    content: "\2605"; 
+    font-size: 24px;
+    color: #ffd700;
+  }
+  
+  .rating-container .react-rating-stars-component .star:hover::before {
+    color: #ffac33; 
+  }
+  

@@ -1,0 +1,43 @@
+.housekeeping-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .full_container{
+    background-image: url('https://d34ad2g4hirisc.cloudfront.net/location_photos/files/000/247/218/main/282c5491296e5d9d3cf2644495668c84.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+  }
+  .schedule {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 80px;
+  }
+  
+  .tasks, .contact {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-top: 20px; 
+  }
+  
+  @media (min-width: 768px) {
+    .housekeeping-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .schedule {
+      width: 100%;
+    }
+  
+    .tasks, .contact {
+      width: 100%;
+      margin-top: 0; 
+    }
+  }
+  

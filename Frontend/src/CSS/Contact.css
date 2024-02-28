@@ -1,0 +1,36 @@
+.contactContainer {
+  padding: 50px 20px;
+  text-align: center;
+  background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1024x768/291505090.jpg?k=ef6010d7cf7d58004318c544438e9e18e07d3f40af8e96e8f737464d5afb67d8&o=&hp=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9; 
+  }
+  
+  
+  .staffList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display two columns */
+    gap: 20px;
+  }
+  
+  .staffMember {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.staffMember:hover {
+    background-color: #e0e0e0; 
+    transition: background-color 0.3s ease; 
+    cursor: pointer; 
+  }  
+  
+  @media screen and (max-width: 768px) {
+    .staffList {
+      grid-template-columns: 1fr; 
+    }
+  }
+  

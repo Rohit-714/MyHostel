@@ -1,0 +1,49 @@
+.wifi-details-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .wifi-detail-card {
+    width: calc(50% - 20px); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    cursor: pointer; 
+  }
+  
+  .wifi-detail-card:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  .wifi-detail-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .wifi-detail-card p {
+    font-size: 16px;
+  }
+
+  .appreciation-message {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .appreciation-message p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .wifi-detail-card {
+      width: calc(100% - 20px); 
+    }
+  }
+  
